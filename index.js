@@ -24,8 +24,8 @@ app.get("/hello", (req , res)=>{
 })
 
 app.get("/rolldice" , (req , res)=>{
-    let diceVal = Math.floor(Math.random()*6 + 1)
-    res.render("rolldice.ejs" , {diceVal})
+    let diceValue = Math.floor(Math.random()*6 + 1)
+    res.render("rolldice.ejs" , {diceValue})
 })
 
 
